@@ -1,0 +1,15 @@
+paths:
+  raw: data/raw
+  processed: data/processed
+  tableau: dashboards/tableau
+coingecko:
+  base_demo: https://api.coingecko.com/api/v3
+  base_pro: https://pro-api.coingecko.com/api/v3
+  per_page: 200
+  vs_currency: ${VS_CURRENCY}
+  tokens_history: ${TOKEN_IDS_FOR_HISTORY}
+  days_history: ${DAYS_HISTORY}
+defillama:
+  base: https://api.llama.fi
+dexscreener:
+  base: https://api.dexscreener.com
